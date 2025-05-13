@@ -10,7 +10,7 @@ This project was created as part of Study Task 1, and it applies the core concep
 
 - HTML, JavaScript
 - Vite
-- (JSONPlaceholder API)[https://jsonplaceholder.typicode.com)]
+- [JSONPlaceholder API](https://jsonplaceholder.typicode.com)
 - ESLint
 - Prettier
 - Vitetest
@@ -78,4 +78,4 @@ const url = import.meta.env.VITE_API_URL;
 
 ## Author
 
-**GitHub Username** = (Mayamariaruth)[https://github.com/Mayamariaruth]
+**GitHub Username** = [Mayamariaruth](https://github.com/Mayamariaruth)
