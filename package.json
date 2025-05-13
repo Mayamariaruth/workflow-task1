@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev": "vite",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +19,8 @@
     "globals": "^16.1.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.0.0",
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "vite": "^6.3.5"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
